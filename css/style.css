@@ -1,0 +1,97 @@
+#home{
+    background-image: url(../events-heavenly-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(214, 46, 51, 0.6);
+    height: 80vh;
+}
+.text{
+    margin-top: 250px;
+}
+.text h1{
+    font-size: 60px;
+}
+#left-nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-size: x-large;
+    transition: all 0.5s;
+}
+#left-nav a:hover{
+    color: brown;
+
+}
+#left-nav{
+    height: 100%;
+    background-color: black;
+    padding-top: 60px;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 999;
+    padding: 30px;    
+}
+.closebtn{
+    position: absolute;
+    top: 0;
+    right: 0;  
+}
+#durations{
+    width: 50%;
+}
+#durations h3{
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    margin: 0;
+}
+#durations div{
+    background-color: #ccc;
+    padding: 10px;
+}
+#durations .first{
+    display: block;
+}
+#durations div{
+    display: none;
+}
+
+
+#details{
+    background-image: linear-gradient(to bottom ,rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url(../invitation-2508607__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    
+}
+
+.num{
+    padding: 40px;
+    border: white solid 2px;
+    color: white;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.social div{
+    border: solid grey 1px;
+    padding: 10px 15px;
+    margin: 10px;
+      
+}
+.social div:hover{
+    background-color: brown;
+}
+.social i{
+    font-size: x-large;
+}
+.social a{
+    color: grey;
+}
